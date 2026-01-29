@@ -3,8 +3,6 @@
 <img width="1071" height="562" alt="Zrzut ekranu 2026-01-29 201821" src="https://github.com/user-attachments/assets/d033ca1b-87d2-483f-ab27-d35e11a34d8a" />
 
 
-![d33045a0-7aa6-4be8-b0a9-dd033310051d](https://github.com/user-attachments/assets/7b33af95-ce76-463a-830f-74410429d76c)
-![61d9e96a-408f-43d2-95c9-b301cc2c364c](https://github.com/user-attachments/assets/65e35676-1e34-4258-840d-7aa3e98e4cf4)
 ## 1. DC Biasing and Voltage Gain
 
 The operating point (Q-point) of the BJT amplifier is defined by the resistor network.
