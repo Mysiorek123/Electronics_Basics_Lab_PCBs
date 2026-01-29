@@ -2,6 +2,7 @@
 <img width="1305" height="536" alt="Zrzut ekranu 2026-01-29 201744" src="https://github.com/user-attachments/assets/92b824ba-3aec-4be3-914a-1855733600e6" />
 <img width="1071" height="562" alt="Zrzut ekranu 2026-01-29 201821" src="https://github.com/user-attachments/assets/d033ca1b-87d2-483f-ab27-d35e11a34d8a" />
 
+![d33045a0-7aa6-4be8-b0a9-dd033310051d](https://github.com/user-attachments/assets/1cab14b0-3f5a-43b2-aa29-f078655965fe)
 
 ## 1. DC Biasing and Voltage Gain
 
