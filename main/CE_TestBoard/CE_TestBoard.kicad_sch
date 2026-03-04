@@ -1042,6 +1042,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 87.63) (xy 129.54 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d54d25-d83b-496c-97f6-369668abad35")
+	)
+	(wire
+		(pts
 			(xy 97.79 90.17) (xy 97.79 91.44)
 		)
 		(stroke
@@ -1122,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 97.79) (xy 129.54 82.55)
+			(xy 129.54 97.79) (xy 129.54 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1182,7 +1192,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 96.52) (xy 67.31 96.52)
+			(xy 64.77 96.52) (xy 77.47 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1279,16 +1289,6 @@
 			(type default)
 		)
 		(uuid "c4d4b56b-d4d7-432b-bd4e-bce6d9accdf0")
-	)
-	(wire
-		(pts
-			(xy 74.93 96.52) (xy 77.47 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0c397ee-e9d6-46d5-ade9-85ccb4b6538f")
 	)
 	(wire
 		(pts
@@ -1465,92 +1465,6 @@
 			(project "wzmacniacz wspolny emiter"
 				(path "/c00abc46-37e0-4418-aadb-4e1f2ca67997"
 					(reference "WY1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 71.12 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32c70890-d0a7-4ba5-9fb7-6d6c05513218")
-		(property "Reference" "D1"
-			(at 71.12 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 71.12 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
-			(at 71.12 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 71.12 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 71.12 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 71.12 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 71.12 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b1621e2-5b0c-41ee-9b81-1369c9a1aab6")
-		)
-		(pin "2"
-			(uuid "3462e5e4-a857-41d0-9e53-aca8e2193bee")
-		)
-		(instances
-			(project "wzmacniacz wspolny emiter"
-				(path "/c00abc46-37e0-4418-aadb-4e1f2ca67997"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1903,6 +1817,94 @@
 			(project ""
 				(path "/c00abc46-37e0-4418-aadb-4e1f2ca67997"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 129.54 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76f27aca-b7d3-4ba1-82b6-ef9524405092")
+		(property "Reference" "D1"
+			(at 132.08 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 132.08 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
+			(at 125.095 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e63f8d11-2522-4963-bf85-129e477d352f")
+		)
+		(pin "2"
+			(uuid "6aac7356-67a1-4c88-8709-7e00a4456a70")
+		)
+		(instances
+			(project "CE_TestBoard"
+				(path "/c00abc46-37e0-4418-aadb-4e1f2ca67997"
+					(reference "D1")
 					(unit 1)
 				)
 			)
